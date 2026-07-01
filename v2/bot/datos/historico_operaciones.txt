@@ -1,0 +1,5 @@
+2025-07-04 17:53:09.019188 | {'simbolo': 'ETCUSD-T', 'tipo': 'SELL', 'precio': None, 'sl': 16.99, 'tp': 14.650000000000006, 'volumen': 0.1}
+2025-07-04 17:58:12.611180 | {'simbolo': 'ETCUSD-T', 'tipo': 'SELL', 'precio': None, 'sl': 16.99, 'tp': 14.650000000000006, 'volumen': 0.1}
+2025-07-04 17:58:33.758094 | {'simbolo': 'ETCUSD-T', 'tipo': 'SELL', 'precio': None, 'sl': 16.99, 'tp': 14.650000000000006, 'volumen': 0.1}
+2025-07-04 18:03:36.091998 | {'simbolo': 'ETCUSD-T', 'tipo': 'SELL', 'precio': None, 'sl': 16.99, 'tp': 14.68, 'volumen': 0.1}
+2025-07-04 19:18:40.650070 | {'simbolo': 'BTCUSD-T', 'tipo': 'SELL', 'precio': None, 'sl': 108975.37, 'tp': 105680.26000000001, 'volumen': 0.1}
