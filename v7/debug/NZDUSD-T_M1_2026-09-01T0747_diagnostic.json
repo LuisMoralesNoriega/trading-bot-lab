@@ -1,0 +1,401 @@
+{
+  "generated_at_utc": "2026-09-01T04:57:41.796448+00:00",
+  "server": "AdmiralsSC-Demo",
+  "symbol": "NZDUSD-T",
+  "timeframe": "M1",
+  "bars_downloaded": 500,
+  "excluded_active_candle": true,
+  "strategy_functions_used": [
+    "calculate_trend",
+    "calculate_awesome_oscillator",
+    "generate_base_signal"
+  ],
+  "candles": [
+    {
+      "time_utc": "2026-09-01T07:46:00+00:00",
+      "ohlc": {
+        "open": 0.59061,
+        "high": 0.59062,
+        "low": 0.59058,
+        "close": 0.59062
+      },
+      "emas": {
+        "ema_30": 0.5906086406717606,
+        "ema_35": 0.5906160141579943,
+        "ema_40": 0.5906235695162471,
+        "ema_45": 0.5906312687942641,
+        "ema_50": 0.5906391123744885,
+        "ema_60": 0.5906553045026007
+      },
+      "ema_order": {
+        "bullish_order_approved": false,
+        "bearish_order_approved": true,
+        "bullish_comparisons": [
+          {
+            "comparison": "ema_30 > ema_35",
+            "left": 0.5906086406717606,
+            "right": 0.5906160141579943,
+            "approved": false
+          },
+          {
+            "comparison": "ema_35 > ema_40",
+            "left": 0.5906160141579943,
+            "right": 0.5906235695162471,
+            "approved": false
+          },
+          {
+            "comparison": "ema_40 > ema_45",
+            "left": 0.5906235695162471,
+            "right": 0.5906312687942641,
+            "approved": false
+          },
+          {
+            "comparison": "ema_45 > ema_50",
+            "left": 0.5906312687942641,
+            "right": 0.5906391123744885,
+            "approved": false
+          },
+          {
+            "comparison": "ema_50 > ema_60",
+            "left": 0.5906391123744885,
+            "right": 0.5906553045026007,
+            "approved": false
+          }
+        ],
+        "bearish_comparisons": [
+          {
+            "comparison": "ema_30 < ema_35",
+            "left": 0.5906086406717606,
+            "right": 0.5906160141579943,
+            "approved": true
+          },
+          {
+            "comparison": "ema_35 < ema_40",
+            "left": 0.5906160141579943,
+            "right": 0.5906235695162471,
+            "approved": true
+          },
+          {
+            "comparison": "ema_40 < ema_45",
+            "left": 0.5906235695162471,
+            "right": 0.5906312687942641,
+            "approved": true
+          },
+          {
+            "comparison": "ema_45 < ema_50",
+            "left": 0.5906312687942641,
+            "right": 0.5906391123744885,
+            "approved": true
+          },
+          {
+            "comparison": "ema_50 < ema_60",
+            "left": 0.5906391123744885,
+            "right": 0.5906553045026007,
+            "approved": true
+          }
+        ]
+      },
+      "ema_slopes": {
+        "ema_30": {
+          "current": 0.5906086406717606,
+          "compared_with_time": "2026-09-01T07:43:00+00:00",
+          "compared_with_value": 0.5906088832773964,
+          "algorithm_comparison_bullish": "0.5906086406717606 > 0.5906088832773964",
+          "algorithm_comparison_bearish": "0.5906086406717606 < 0.5906088832773964",
+          "direction": "DESCENDING",
+          "bullish_approved": false,
+          "bearish_approved": true
+        },
+        "ema_35": {
+          "current": 0.5906160141579943,
+          "compared_with_time": "2026-09-01T07:43:00+00:00",
+          "compared_with_value": 0.5906176215284801,
+          "algorithm_comparison_bullish": "0.5906160141579943 > 0.5906176215284801",
+          "algorithm_comparison_bearish": "0.5906160141579943 < 0.5906176215284801",
+          "direction": "DESCENDING",
+          "bullish_approved": false,
+          "bearish_approved": true
+        },
+        "ema_40": {
+          "current": 0.5906235695162471,
+          "compared_with_time": "2026-09-01T07:43:00+00:00",
+          "compared_with_value": 0.5906261985979073,
+          "algorithm_comparison_bullish": "0.5906235695162471 > 0.5906261985979073",
+          "algorithm_comparison_bearish": "0.5906235695162471 < 0.5906261985979073",
+          "direction": "DESCENDING",
+          "bullish_approved": false,
+          "bearish_approved": true
+        },
+        "ema_45": {
+          "current": 0.5906312687942641,
+          "compared_with_time": "2026-09-01T07:43:00+00:00",
+          "compared_with_value": 0.5906346945360452,
+          "algorithm_comparison_bullish": "0.5906312687942641 > 0.5906346945360452",
+          "algorithm_comparison_bearish": "0.5906312687942641 < 0.5906346945360452",
+          "direction": "DESCENDING",
+          "bullish_approved": false,
+          "bearish_approved": true
+        },
+        "ema_50": {
+          "current": 0.5906391123744885,
+          "compared_with_time": "2026-09-01T07:43:00+00:00",
+          "compared_with_value": 0.5906431821399949,
+          "algorithm_comparison_bullish": "0.5906391123744885 > 0.5906431821399949",
+          "algorithm_comparison_bearish": "0.5906391123744885 < 0.5906431821399949",
+          "direction": "DESCENDING",
+          "bullish_approved": false,
+          "bearish_approved": true
+        },
+        "ema_60": {
+          "current": 0.5906553045026007,
+          "compared_with_time": "2026-09-01T07:43:00+00:00",
+          "compared_with_value": 0.59066037380309,
+          "algorithm_comparison_bullish": "0.5906553045026007 > 0.59066037380309",
+          "algorithm_comparison_bearish": "0.5906553045026007 < 0.59066037380309",
+          "direction": "DESCENDING",
+          "bullish_approved": false,
+          "bearish_approved": true
+        }
+      },
+      "band_min": 0.5906086406717606,
+      "band_max": 0.5906553045026007,
+      "low": 0.59058,
+      "high": 0.59062,
+      "touches_band": true,
+      "touches_band_comparison": {
+        "low_lte_band_max": true,
+        "high_gte_band_min": true
+      },
+      "awesome_oscillator": -4.129411764697277e-05,
+      "awesome_oscillator_previous": -5.4764705882281994e-05,
+      "ao_color": "GREEN",
+      "ao_color_previous": "GREEN",
+      "ao_changed_to_red": false,
+      "ao_changed_to_green": false,
+      "trend": "BEARISH",
+      "base_signal": "WAIT",
+      "buy_conditions": {
+        "trend_is_bullish": {
+          "approved": false,
+          "reason": "Rechazada: trend es BEARISH, no BULLISH."
+        },
+        "touches_band": {
+          "approved": true,
+          "reason": "Aprobada: low <= band_max y high >= band_min."
+        },
+        "ao_changed_to_green": {
+          "approved": false,
+          "reason": "Rechazada: AO no cambió de rojo a verde según el algoritmo."
+        }
+      },
+      "sell_conditions": {
+        "trend_is_bearish": {
+          "approved": true,
+          "reason": "Aprobada: trend es BEARISH."
+        },
+        "touches_band": {
+          "approved": true,
+          "reason": "Aprobada: low <= band_max y high >= band_min."
+        },
+        "ao_changed_to_red": {
+          "approved": false,
+          "reason": "Rechazada: AO no cambió de verde a rojo según el algoritmo."
+        }
+      },
+      "exact_result_reason": "WAIT: al menos una condición de BUY y una de SELL fueron rechazadas."
+    },
+    {
+      "time_utc": "2026-09-01T07:47:00+00:00",
+      "ohlc": {
+        "open": 0.59062,
+        "high": 0.59066,
+        "low": 0.5906,
+        "close": 0.59063
+      },
+      "emas": {
+        "ema_30": 0.5906100186929374,
+        "ema_35": 0.5906167911492168,
+        "ema_40": 0.5906238831983813,
+        "ema_45": 0.5906312136292962,
+        "ema_50": 0.5906387550264695,
+        "ema_60": 0.5906544748467777
+      },
+      "ema_order": {
+        "bullish_order_approved": false,
+        "bearish_order_approved": true,
+        "bullish_comparisons": [
+          {
+            "comparison": "ema_30 > ema_35",
+            "left": 0.5906100186929374,
+            "right": 0.5906167911492168,
+            "approved": false
+          },
+          {
+            "comparison": "ema_35 > ema_40",
+            "left": 0.5906167911492168,
+            "right": 0.5906238831983813,
+            "approved": false
+          },
+          {
+            "comparison": "ema_40 > ema_45",
+            "left": 0.5906238831983813,
+            "right": 0.5906312136292962,
+            "approved": false
+          },
+          {
+            "comparison": "ema_45 > ema_50",
+            "left": 0.5906312136292962,
+            "right": 0.5906387550264695,
+            "approved": false
+          },
+          {
+            "comparison": "ema_50 > ema_60",
+            "left": 0.5906387550264695,
+            "right": 0.5906544748467777,
+            "approved": false
+          }
+        ],
+        "bearish_comparisons": [
+          {
+            "comparison": "ema_30 < ema_35",
+            "left": 0.5906100186929374,
+            "right": 0.5906167911492168,
+            "approved": true
+          },
+          {
+            "comparison": "ema_35 < ema_40",
+            "left": 0.5906167911492168,
+            "right": 0.5906238831983813,
+            "approved": true
+          },
+          {
+            "comparison": "ema_40 < ema_45",
+            "left": 0.5906238831983813,
+            "right": 0.5906312136292962,
+            "approved": true
+          },
+          {
+            "comparison": "ema_45 < ema_50",
+            "left": 0.5906312136292962,
+            "right": 0.5906387550264695,
+            "approved": true
+          },
+          {
+            "comparison": "ema_50 < ema_60",
+            "left": 0.5906387550264695,
+            "right": 0.5906544748467777,
+            "approved": true
+          }
+        ]
+      },
+      "ema_slopes": {
+        "ema_30": {
+          "current": 0.5906100186929374,
+          "compared_with_time": "2026-09-01T07:44:00+00:00",
+          "compared_with_value": 0.590607019840145,
+          "algorithm_comparison_bullish": "0.5906100186929374 > 0.590607019840145",
+          "algorithm_comparison_bearish": "0.5906100186929374 < 0.590607019840145",
+          "direction": "ASCENDING",
+          "bullish_approved": true,
+          "bearish_approved": false
+        },
+        "ema_35": {
+          "current": 0.5906167911492168,
+          "compared_with_time": "2026-09-01T07:44:00+00:00",
+          "compared_with_value": 0.5906155314435645,
+          "algorithm_comparison_bullish": "0.5906167911492168 > 0.5906155314435645",
+          "algorithm_comparison_bearish": "0.5906167911492168 < 0.5906155314435645",
+          "direction": "ASCENDING",
+          "bullish_approved": true,
+          "bearish_approved": false
+        },
+        "ema_40": {
+          "current": 0.5906238831983813,
+          "compared_with_time": "2026-09-01T07:44:00+00:00",
+          "compared_with_value": 0.5906239450077655,
+          "algorithm_comparison_bullish": "0.5906238831983813 > 0.5906239450077655",
+          "algorithm_comparison_bearish": "0.5906238831983813 < 0.5906239450077655",
+          "direction": "DESCENDING",
+          "bullish_approved": false,
+          "bearish_approved": true
+        },
+        "ema_45": {
+          "current": 0.5906312136292962,
+          "compared_with_time": "2026-09-01T07:44:00+00:00",
+          "compared_with_value": 0.590632316512739,
+          "algorithm_comparison_bullish": "0.5906312136292962 > 0.590632316512739",
+          "algorithm_comparison_bearish": "0.5906312136292962 < 0.590632316512739",
+          "direction": "DESCENDING",
+          "bullish_approved": false,
+          "bearish_approved": true
+        },
+        "ema_50": {
+          "current": 0.5906387550264695,
+          "compared_with_time": "2026-09-01T07:44:00+00:00",
+          "compared_with_value": 0.5906407044090147,
+          "algorithm_comparison_bullish": "0.5906387550264695 > 0.5906407044090147",
+          "algorithm_comparison_bearish": "0.5906387550264695 < 0.5906407044090147",
+          "direction": "DESCENDING",
+          "bullish_approved": false,
+          "bearish_approved": true
+        },
+        "ema_60": {
+          "current": 0.5906544748467777,
+          "compared_with_time": "2026-09-01T07:44:00+00:00",
+          "compared_with_value": 0.5906577385964313,
+          "algorithm_comparison_bullish": "0.5906544748467777 > 0.5906577385964313",
+          "algorithm_comparison_bearish": "0.5906544748467777 < 0.5906577385964313",
+          "direction": "DESCENDING",
+          "bullish_approved": false,
+          "bearish_approved": true
+        }
+      },
+      "band_min": 0.5906100186929374,
+      "band_max": 0.5906544748467777,
+      "low": 0.5906,
+      "high": 0.59066,
+      "touches_band": true,
+      "touches_band_comparison": {
+        "low_lte_band_max": true,
+        "high_gte_band_min": true
+      },
+      "awesome_oscillator": -2.2411764705854154e-05,
+      "awesome_oscillator_previous": -4.129411764697277e-05,
+      "ao_color": "GREEN",
+      "ao_color_previous": "GREEN",
+      "ao_changed_to_red": false,
+      "ao_changed_to_green": false,
+      "trend": "LATERAL",
+      "base_signal": "WAIT",
+      "buy_conditions": {
+        "trend_is_bullish": {
+          "approved": false,
+          "reason": "Rechazada: trend es LATERAL, no BULLISH."
+        },
+        "touches_band": {
+          "approved": true,
+          "reason": "Aprobada: low <= band_max y high >= band_min."
+        },
+        "ao_changed_to_green": {
+          "approved": false,
+          "reason": "Rechazada: AO no cambió de rojo a verde según el algoritmo."
+        }
+      },
+      "sell_conditions": {
+        "trend_is_bearish": {
+          "approved": false,
+          "reason": "Rechazada: trend es LATERAL, no BEARISH."
+        },
+        "touches_band": {
+          "approved": true,
+          "reason": "Aprobada: low <= band_max y high >= band_min."
+        },
+        "ao_changed_to_red": {
+          "approved": false,
+          "reason": "Rechazada: AO no cambió de verde a rojo según el algoritmo."
+        }
+      },
+      "exact_result_reason": "WAIT: al menos una condición de BUY y una de SELL fueron rechazadas."
+    }
+  ]
+}

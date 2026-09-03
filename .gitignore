@@ -9,3 +9,7 @@ config.json
 *.log
 .DS_Store
 .vscode/
+**/.venv/
+V7/data/
+V7/logs/
+**/**pycache**

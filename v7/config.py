@@ -1,0 +1,44 @@
+import MetaTrader5 as mt5
+
+
+SYMBOLS = [
+    "BTCUSD-T",
+    "AUDUSD-T",
+    "USDCAD-T",
+    "NZDUSD-T",
+    "USDCHF-T",
+    "EURGBP-T",
+    "EURJPY-T",
+    "GBPJPY-T",
+    "SOLUSD-T",
+    "LTCUSD-T",
+    "ADAUSD-T",
+    "XLMUSD-T",
+    "ETCUSD-T",
+    "[USA500]-T",
+    "[USA100]-T",
+    "[GER40]-T",
+    "[SPA35]-T",
+    "[JP225]-T",
+]
+MAGIC_NUMBER = 70007
+RISK_PER_TRADE = 0.001
+MAX_TOTAL_RISK = 0.50
+MAX_OPEN_POSITIONS = 50
+HISTORY_BARS = 100
+POLL_SECONDS = 1
+ORDER_DEVIATION = 20
+
+EMA_PERIODS = [30, 35, 40, 45, 50, 60]
+SLOPE_BARS = 3
+AO_FAST_PERIOD = 5
+AO_SLOW_PERIOD = 34
+STOP_LOOKBACK = 5
+
+TIMEFRAMES = {
+    "M1": mt5.TIMEFRAME_M1,
+    "M5": mt5.TIMEFRAME_M5,
+    "M15": mt5.TIMEFRAME_M15,
+    "M30": mt5.TIMEFRAME_M30,
+    "H1": mt5.TIMEFRAME_H1,
+}
